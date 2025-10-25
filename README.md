@@ -5,7 +5,7 @@
 [![Docker](https://img.shields.io/badge/Docker-24.1.0-blue?logo=docker&logoColor=white)](https://www.docker.com/) 
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-Ever wondered if a small API could predict heart health risks in seconds? 🫀 Welcome to **Heart Disease Prediction**, where machine learning meets lightning-fast APIs, all wrapped in Docker magic! This project predicts the likelihood of heart disease using a trained machine learning model—simply feed it health stats like age, cholesterol, blood pressure, and more, and get instant insights. Built with **Python 3.12.3**, **FastAPI**, **Uvicorn**, and **Scikit-learn**, this application provides real-time predictions through a lightweight API, fully containerized with Docker for easy deployment anywhere.  
+Ever wondered if a small API could predict heart health risks in seconds? 🫀 Welcome to **Heart Disease Prediction**, where machine learning meets lightning-fast APIs, all wrapped in Docker magic! This project predicts the likelihood of heart disease using a trained machine learning model, simply feed it health stats like age, cholesterol, blood pressure, and more, and get instant insights. Built with **Python 3.12.3**, **FastAPI**, **Uvicorn**, and **Scikit-learn**, this application provides real-time predictions through a lightweight API, fully containerized with Docker for easy deployment anywhere.  
 
 ## 🔍 Project Overview
 

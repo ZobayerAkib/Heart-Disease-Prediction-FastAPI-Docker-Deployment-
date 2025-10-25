@@ -50,7 +50,17 @@ A Machine Learning + FastAPI + Docker project that trains a classifier to predic
 - **Docker** – Containerization for easy deployment  
 - **Scikit-learn** – Machine learning model  
 - **Uvicorn** – ASGI server for FastAPI  
-- **Pydantic** – Data validation  
+- **Pydantic** – Data validation
+
+## ⚡ FastAPI App
+
+The FastAPI app exposes three endpoints:
+
+  -GET /health — simple health check
+  
+  -GET /info — returns model type and feature list
+  
+  -POST /predict — accepts JSON with feature values and returns { "heart_disease": true/false }
 
 ## 🚀 Installation & Setup
 

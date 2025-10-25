@@ -56,11 +56,11 @@ A Machine Learning + FastAPI + Docker project that trains a classifier to predic
 
 The FastAPI app exposes three endpoints:
 
-  -GET /health — simple health check
+  - **GET /health** — simple health check
   
-  -GET /info — returns model type and feature list
+  - **GET /info** — returns model type and feature list
   
-  -POST /predict — accepts JSON with feature values and returns { "heart_disease": true/false }
+  - **POST /predict** — accepts JSON with feature values and returns { "heart_disease": true/false }
 
 ## 🚀 Installation & Setup
 

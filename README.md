@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Prediction API with FastAPI & Docker
+# <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1000&center=true&vCenter=true&width=435&lines=%E2%9D%A4%EF%B8%8F+Heart+Disease+Prediction+API+with+FastAPI+%26+Docker" alt="Typing SVG" /></a>
 
 [![Python](https://img.shields.io/badge/Python-3.12.3-blue?logo=python&logoColor=white)](https://www.python.org/) 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100.0-green?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) 

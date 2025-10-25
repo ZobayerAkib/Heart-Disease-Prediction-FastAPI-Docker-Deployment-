@@ -11,6 +11,32 @@ Ever wondered if a small API could predict heart health risks in seconds? 🫀 W
 
 The application uses a trained ML model to predict heart disease based on user input such as age, sex, chest pain type, blood pressure, cholesterol, fasting blood sugar, resting ECG, maximum heart rate achieved, exercise-induced angina, ST depression, slope, number of major vessels, and thalassemia. FastAPI serves as the backend, ensuring lightning-fast responses, while Docker allows consistent deployment across environments.  
 
+# ❤️ Heart Disease Prediction API
+
+**Dataset collected from:** [Heart Disease Dataset — Kaggle (johnsmith88)](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+
+A Machine Learning + FastAPI + Docker project that trains a classifier to predict the presence of heart disease (binary: 0 = no disease, 1 = disease), then serves predictions via a REST API. This repository demonstrates an end-to-end workflow: dataset → model training → model saving (joblib) → FastAPI service → Dockerized deployment.
+
+---
+
+## 🔎 Dataset (collected)
+- **Source:** Kaggle — [johnsmith88 / heart-disease-dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)  
+- **File:** `heart.csv`  
+- **Target column:** `target` (0 = no heart disease, 1 = heart disease)  
+- **Features used:**  
+  `age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal`
+
+> **Note:** Please download the dataset from Kaggle (requires a Kaggle account) and place the `heart.csv` into the `model/` folder (or update the path in `model/model_run.py`).
+
+---
+
+## 📥 How to get the dataset
+1. Go to the Kaggle dataset page:  
+   https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+2. Sign in with your Kaggle account and click **Download**.
+3. Extract the downloaded zip and copy `heart.csv` into this repository's `model/` directory:
+
+
 ## ⚡ Features
 
 - 💡 **Instant Predictions**: Input health data, get a prediction.  
